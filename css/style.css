@@ -5,8 +5,8 @@ body{
     border: 1px blue dashed;
 }
 header{
-    height: 81px;
-    width: 91.5%;
+    min-height: 81px;
+    width: 94%;
     margin: auto;
 }
 ul > li > a:hover{
@@ -43,6 +43,11 @@ main{
 
 
 
+@media screen and (max-width: 576px){
+    .k_form_col{
+        height: 50px;
+    }
+}
 
 @media (min-width: 1200px){
     .container, .container-lg, .container-md, .container-sm, .container-xl {
